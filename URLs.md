@@ -10,7 +10,7 @@
 OpenML have large collection of [csv data ](https://www.openml.org/search?type=data)
 1. titatic sample - https://www.openml.org/d/42637
 
-![image](gallery/openml_icon.png)
+![image](img/openml_icon.png)
 
 ## Youtube
 1. [pandas](https://www.youtube.com/watch?v=ZyhVh-qRZPA&list=PL-osiE80TeTsWmV9i9c58mdDCSskIFdDS)

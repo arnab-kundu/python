@@ -18,6 +18,17 @@ Ref: https://jupyter.org/install
 # Getting started
 ### Development platforms
 This are some python development platform.
-1. python IDLE or terminal
-2. jupyter notebook
-3. colab
+1. [python IDLE or terminal](./python)
+2. [jupyter notebook](./jupyter_notebook)
+3. [colab](./colab)
+
+#### python IDLE or terminal
+* Examples of this folder can be run using terminal
+#### jupyter notebook
+* Install jupyter notebook and Anaconda to run this examples
+#### Colab
+* Colaboratory, or "Colab" for short, allows you to write and execute Python in your browser, with 
+    - Zero configuration required
+    - Free access to GPUs
+    - Easy sharing
+* Use [Google colab](https://colab.research.google.com/#create=true) to run this examples
