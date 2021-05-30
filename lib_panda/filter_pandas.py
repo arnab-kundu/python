@@ -38,3 +38,7 @@ print(df.loc[filt])
 print('---------------------------------------------------------------------------------')
 # Alternate value of current filter
 print(df.loc[~filt])  
+
+
+import os
+os.system("pause")
