@@ -19,19 +19,20 @@ print(linear_regressor.predict([[5]]))
 
 
 #############
-# matplotlib
+# seaborn
 #############
 
-import matplotlib.pyplot as plt  # To visualize
+import seaborn as sns  # To visualize
+import matplotlib.pyplot as plt
+# seaborn version
+print(sns.__version__)
+
 # scatter plot
-plt.scatter(X, Y)
+sns.scatterplot(data=data, x=None, y=None)
+
 # line plot
-plt.plot(X, Y_pred, color='red')
-# show plot window
+sns.lineplot(data=data, x=None, y=None)
 plt.show()
-
-
-
 
 import os
 os.system('pause')
