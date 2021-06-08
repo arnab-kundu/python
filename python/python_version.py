@@ -1,0 +1,8 @@
+from platform import python_version
+print(python_version())
+
+
+import sys
+print(sys.executable)
+print(sys.version)
+print(sys.version_info)
