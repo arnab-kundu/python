@@ -1,0 +1,6 @@
+import sys
+
+print("Default recurtion limit is {}".format(sys.getrecursionlimit()))
+
+sys.setrecursionlimit(2000)
+print("Updated recurtion limit is {}".format(sys.getrecursionlimit()))

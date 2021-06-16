@@ -1,0 +1,16 @@
+lst = [12,34,65,87,45,23,77,23]
+
+def count(lst):
+
+  even = 0
+  odd = 0
+
+  for i in lst:
+    if i%2==0:
+      even+=1
+    else:
+      odd+=1
+  return even, odd
+even, odd = count(lst)
+
+print("Event no: {} and Odd no: {}".format(even, odd))

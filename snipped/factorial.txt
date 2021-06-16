@@ -1,0 +1,28 @@
+Factorial using for loop
+========================
+number  = 9
+
+def fact(num):
+  res = 1
+  for i in range(1,number+1):  
+    res*=i
+  return res
+
+result = fact(number)
+print("Factorial of {} is {}".format(number, result))
+------------------------------------------------------
+
+Factorial using for Recurtion
+=============================
+number = 6
+
+def fact(num):
+  if num == 0:
+    return 1
+  elif num == 1:
+    return 1
+  elif num > 1:
+    return num*fact(num-1)   
+
+result = fact(number)
+print("Factorial of {} is {}".format(number, result))

@@ -1,0 +1,9 @@
+Clear logs
+==========
+
+# Use this line of code to clear logs in jupyter notebook or colab
+# Usally to train a model generate lengthly logs to clear this unnessery logs programatically from window use this
+
+
+from IPython.display import clear_output
+clear_output()
