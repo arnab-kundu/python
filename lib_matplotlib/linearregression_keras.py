@@ -78,7 +78,7 @@ tflite_model = converter.convert()
 with open('model.tflite', 'wb') as f:
   f.write(tflite_model)
 
-!pip install ml_metadata
+#!pip install ml_metadata
 import ml_metadata as mlmd
 from ml_metadata.metadata_store import metadata_store
 from ml_metadata.proto import metadata_store_pb2
